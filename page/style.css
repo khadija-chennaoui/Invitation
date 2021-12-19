@@ -1,0 +1,267 @@
+                *{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                body{
+                    margin: 0 5%;
+                    /* padding: 0 5%; */
+                    font-family: 'Poppins', sans-serif;
+                    box-sizing: border-box;
+                }
+
+                .contenue{
+                    justify-content:center ;
+                }
+
+                .space {
+                    height: 100px;
+                }
+
+                .total{
+                    margin: 10px 50px 20px 0;
+                    width: 100%;
+                    height: 90px;
+                    display: flex;
+                    /* align-items: center; */
+                    justify-content: space-between;
+                }
+
+                .menu{
+                    display: flex;
+                    gap: 2em;
+                }
+
+                .liste_h{
+                    list-style: none;
+                    display: flex;
+                    gap: 2em;
+                }
+
+                /* ul{
+                    width: 80%;
+                    
+                } */
+                .mini img{
+                    width: 14%
+                }
+
+                .botton{
+                    width: 30%;
+                }
+
+                .get{ 
+                    display: inline-block;
+                    background-image: linear-gradient(to right,rgb(255, 182, 45), rgb(160, 4, 160));
+                }
+
+                .main{
+                    position: relative;
+                    background-color:black;
+                    color: white;  
+                    height: 328px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .content-main{
+                    width: 60%;
+                    padding: 70px;
+                }
+
+                .signup{
+                    float: right;
+                    margin: 13px;
+                    background-color:black;
+                    color: white;
+                    font : oblique 14px Arial, Helvetica, sans-serif; 
+                }
+
+                .login{
+                    float: right;
+                    margin: 13px;
+                    background-color: white;
+                    font : oblique 14px Arial, Helvetica, sans-serif; 
+                }
+
+                .imag img{
+                float: right;   
+                width: 13%; 
+                height: 50%;
+                    
+                }
+
+
+
+                .imag{
+                    position: absolute;
+                    width: 400px;
+                    height: 400px;
+                    bottom: -60px;
+                    right: 20px;
+                }
+                .imag img{
+                    width: 100%;
+                    height: 100%;
+                }
+                section{
+                    display: flex;
+                    align-items: center;
+                    padding-top: 0px;
+                    gap: 40px;
+                    width: 100%;
+                }
+
+                .left img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .right img{
+                    width: 100%;
+                    height: 100%;
+                }
+                .gitde
+                {  
+                    margin-left: 30%;
+                    width: 36%;
+                    color: ivory;
+                    background-image: linear-gradient(to right,rgb(255, 182, 45), rgb(160, 4, 160));
+                    border: none;
+                    padding:  10px;
+                    border-radius: 5px;
+                }
+                .getcash p:first-child{
+                    font : oblique 40px Arial, Helvetica, sans-serif; 
+                }
+                .blanc{
+                    width: 28%;
+                    border: none;
+                    padding:  10px;
+                    border-radius: 5px;
+                }
+                .clor{
+                    width: 20%;
+                    background-image: linear-gradient(to right,rgb(255, 182, 45), rgb(160, 4, 160)); 
+                    border: none;
+                    padding:  10px;
+                    border-radius: 5px;
+                    color: aliceblue;
+
+                }
+                .tool h2{
+                    font : oblique 40px Arial, Helvetica, sans-serif; 
+                }
+
+
+                .toop {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color:black;
+                    height: 300px;
+                    border-radius: 5px;
+                    padding: 0 70px;
+                }
+
+
+                .too{
+                    color: white;  
+                    height: 300px;
+                    width: 50%;
+                }
+
+                .bnt {
+                    width: 50%;
+                }
+
+                .bnt img{
+                    height: 400px;
+                }
+
+
+                .tool{
+                    width: 100%;
+                }
+                .google{
+                    width: 100%;  
+                }
+
+
+                /* grid starts */
+
+
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 100%;
+                    padding: 0 4px;
+                }
+
+                /* Create four equal columns that sits next to each other */
+                .column {
+                    flex: 25%;
+                    max-width: 24%;
+                    padding: 0 4px;
+                }
+
+                .column img {
+                    margin-top: 8px;
+                    vertical-align: middle;
+                    width: 100%;
+                }
+
+                /* Responsive layout - makes a two column-layout instead of four columns */
+                @media screen and (max-width: 800px) {
+                    
+                    .menu{
+                        flex-direction: column;
+                        gap:1rem;
+                    }
+                    
+                    .column {
+                    flex: 50%;
+                    max-width: 50%;
+                    }
+
+                }
+
+                /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                    .column {
+                    flex: 100%;
+                    max-width: 100%;
+                    }
+                }
+                /* grid ends */
+
+                .footer{
+                display: flex; 
+                gap: 1em;  
+                background-color: black;
+                color: white;
+                height: 307px;
+                width: 100%;
+
+                }
+                .liste ul li{
+                    list-style: none;  
+                }
+                .liste{
+                    width: 16%;
+                    padding: 0px;
+                }
+                div.para {
+                    width: 38%;
+                    padding: 63px;
+                }
+                .para img{
+                    width: 25px;
+                    background-color: white;
+                }
+                .fin p{
+                    margin-left: 10%;
+                }
+               
+                    
+                
